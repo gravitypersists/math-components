@@ -1,0 +1,39 @@
+
+#superposition {
+  margin-left: auto;
+  margin-right: auto;
+  width: 725px;
+  font-family: Cambria,"Times New Roman", Times, serif;
+}
+
+#superposition .chart-bg {
+  position: absolute;
+}
+
+#superposition .emphasized{
+  color: rgb(0, 0, 184);
+}
+
+#superposition .equation{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#superposition .first-equation {
+  color: #0000ff;
+}
+
+#superposition .second-equation {
+  color: #aa0000;
+}
+
+#superposition .second-equation .TKAdjustableNumber {
+  background-color: rgb(255, 215, 215);
+}
+
+#superposition .x-labels {
+  font-size: 14px !important;
+  font-family: times new roman !important;
+  stroke: 0px !important;
+  fill: #ccc !important;
+}

@@ -1,0 +1,64 @@
+#vectoradd {
+  margin-left: auto;
+  margin-right: auto;
+  width: 725px;
+  font-family: Cambria,"Times New Roman", Times, serif;
+}
+
+#vectoradd .container {
+  position: relative;
+}
+
+#vectoradd ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+  margin-top: 100px;
+  width: 400px;
+  position: absolute;
+}
+
+#vectoradd li {
+  float: left;
+  margin: 13px;
+}
+
+#vectoradd .math {
+  font-size: 30px;
+  margin-top: 22px;
+}
+
+#vectoradd .chart {
+  float: right;
+}
+
+#vectoradd td {
+  padding: 3px;
+  text-align: center;
+}
+
+#vectoradd .leftBracket {
+  border: 1px solid;
+  border-right: none;
+}
+
+#vectoradd .rightBracket {
+  border: 1px solid;
+  border-left: none;
+}
+
+#vectoradd .m1 .element {
+  color: blue;
+}
+
+#vectoradd .m2 .element {
+  color: red;
+}
+
+#vectoradd .m3 .element {
+  color: green;
+}
+
+#vectoradd .m2 .TKAdjustableNumber {
+  background-color: rgb(255, 215, 215);
+}

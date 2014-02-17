@@ -1,0 +1,29 @@
+#sawtooth {
+  width: 725px;
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Cambria,"Times New Roman", Times, serif;
+}
+
+#sawtooth .equation {
+  position: absolute;
+  top: 240px;
+  left: 300px;
+  font-size: 24px;
+}
+
+#sawtooth .nth-equation {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  opacity: 0.3;
+  color: #2a17b1;
+}
+
+#sawtooth .number {
+  position: relative;
+  top: 16px;
+  left: 296px;
+  z-index: 100;
+}

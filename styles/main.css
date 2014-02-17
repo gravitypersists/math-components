@@ -1,0 +1,44 @@
+body {
+  font-family: Georgia, Cambria,"Times New Roman", Times, serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.5;
+  word-break: break-word;
+  color: #333332;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: #333332;
+  margin-bottom: 8px;
+  outline: 0;
+}
+
+a {
+  font-weight: bold;
+  color: #6B6BA0;
+  text-decoration: none;
+}
+
+.contents {
+  width: 800px;
+  margin: 40px auto;
+}
+
+.smaller {
+  font-size: 16px;
+}
+
+.container {
+  position: relative;
+  margin: 50px 0px;
+}
+

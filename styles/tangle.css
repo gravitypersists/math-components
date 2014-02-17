@@ -1,0 +1,53 @@
+/* cursor */
+
+.TKCursorDragHorizontal {
+  cursor: pointer;
+  cursor: move;
+  cursor: col-resize;
+}
+
+
+/* TKToggle */
+
+.TKToggle {
+  color: #46f;
+  border-bottom: 1px dashed #46f;
+  cursor: pointer;
+}
+
+
+/* TKAdjustableNumber */
+
+.TKAdjustableNumber {
+  padding: 0px 7px 3px 7px;
+  border-radius: 12px;
+  background-color: rgba(9, 105, 162, 0.1);
+  cursor: pointer;
+  cursor: move;
+  cursor: col-resize;
+}
+
+.TKAdjustableNumber:after {
+  content: ">";
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 0px 0px 3px;
+}
+
+.TKAdjustableNumber:before {
+  content: "<";
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 3px 0px 0px;
+}
+
+
+.TKAdjustableNumberDown {
+  color: #00c;
+}
+
+.TKAdjustableNumberHelp {
+  position: absolute;
+  visibility: hidden;
+}
+

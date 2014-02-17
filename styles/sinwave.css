@@ -1,0 +1,27 @@
+#sinwave {
+  margin-left: auto;
+  margin-right: auto;
+  width: 725px;
+  font-family: Cambria,"Times New Roman", Times, serif;
+}
+
+#sinwave .chart-bg {
+  position: absolute;
+}
+
+#sinwave .emphasized{
+  color: rgb(0, 0, 184);
+}
+
+#sinwave .equation{
+  text-align: center;
+  margin: 10px 0px;
+
+}
+
+#sinwave .x-labels {
+  font-size: 14px !important;
+  font-family: times new roman !important;
+  stroke: 0px !important;
+  fill: #ccc !important;
+}

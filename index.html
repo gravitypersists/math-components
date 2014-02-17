@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>Math Prototypes</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/tangle.css">
+
+  <script type="text/javascript" src="libs/jquery.js"></script>
+  <script type="text/javascript" src="libs/underscore.js"></script>
+  <script type="text/javascript" src="libs/raphael.js"></script>
+  <script type="text/javascript" src="libs/chartplugins.js"></script>
+  <script type="text/javascript" src="libs/tangle.js"></script>
+</head>
+<body>
+  
+  <div class="contents">
+    <h1>Math learning gadget prototypes</h1>
+    <p>
+      These prototypes serve as examples for how a specific concept can be communicated interactively, rather than just by text or video. By presenting information spatially, each interaction shows how a concept evolves with change per dimension, and (hopefully) serves the student as a better means to intuitively grasp the subject. 
+    </p>
+
+    <p>
+      This teaches the student what a 2d vector is (drag the blue numbers):
+    </p>
+
+    <div id="vector" class="container"></div>
+    <link rel="stylesheet" type="text/css" href="styles/vector.css">
+    <script type="text/javascript" src="scripts/vector.js"></script>
+    <script> (new Vector()).render(document.body.getElementById("vector")) </script>
+
+    <p>
+      This concept can be extended to show how vectors can be added together (arrowhead color bug requires a bit too much effort for a demo):
+    </p>
+
+    <div id="vectoradd" class="container"></div>
+    <link rel="stylesheet" type="text/css" href="styles/vectoradd.css">
+    <script type="text/javascript" src="scripts/vectoradd.js"></script>
+    <script> (new VectorAdd()).render(document.body.getElementById("vectoradd")) </script>
+
+    <p>
+      With minimal change in code, this might be modified to teach y=mx+b. Ideally, a plethora of examples might be starting points for taking something simple, modifying the code, and using it to create something more complex.
+    <p>
+
+    <p>
+      For example, teaching Phase, frequency, and amplitude as quickly as possible: 
+    </p>
+
+    <div id="sinwave" class="container"></div>
+    <link rel="stylesheet" type="text/css" href="styles/sinwave.css">
+    <script type="text/javascript" src="scripts/sinwave.js"></script>
+    <script> (new SinWave()).render(document.body.getElementById("sinwave")) </script>
+
+    <p>
+      The same concept can be applied to teaching the principle of superposition: 
+    </p>
+
+    <div id="superposition" class="container"></div>
+    <link rel="stylesheet" type="text/css" href="styles/superposition.css">
+    <script type="text/javascript" src="scripts/superposition.js"></script>
+    <script> (new Superposition()).render(document.body.getElementById("superposition")) </script>
+
+    <p>
+      Guaranteed to take up a full-page in the first chapter of any textbook on Fourier theory, this demonstrates how an infinite series of sin waves superimposed on each other can make <strike>any</strike> a sawtooth function:
+    </p>
+
+    <div id="sawtooth" class="container"></div>
+    <link rel="stylesheet" type="text/css" href="styles/sawtooth.css">
+    <script type="text/javascript" src="scripts/sawtooth.js"></script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+    <script> (new Sawtooth()).render(document.body.getElementById("sawtooth")) </script>
+
+    <p>
+      Such examples serve as either a foundational means of teaching new concepts or as a qualitative glance at a subject. 
+    </p>
+
+    <div class="smaller">
+      <p><em><strong>Additional notes:</strong></em></p>
+      <p>
+        These were developed while I was working at <a href="www.versal.com">Versal</a>. Versal seeks to be a learning environment for students by giving authors the ability to include javascript interactions, like these, into their content.
+      <p>
+
+      <p>
+        A primary design goal is to keep things as simple as possible, removing extraneous cognitive load to present concepts solely. If this sort of thing interests you, you might like <a href="http://www.davidlewisphd.com/courses/EDD8121/readings/1998-Sweller_et_al.pdf">this paper</a>.
+      </p>
+
+      <p>
+        Indebted to Bret Victor in more ways than one, this uses his <a href="http://worrydream.com/Tangle/">Tangle</a> library (slightly modified) for the draggable numbers. Drawing done with a <a href="https://github.com/gitpullgravity/raphaelchartplugins">charting library</a> I wrote as a plugin for the svg drawing <a href="http://raphaeljs.com/">Raphael js</a> library. 
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
